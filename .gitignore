@@ -1,0 +1,27 @@
+# Cache files
+__pycache__
+
+# Logs, experimental code and other artifacts
+*exports*
+# Artifacts generated during training
+*.txt
+# Code for the plots in the paper
+plot.py* 
+# Plots
+*.png 
+# Splits along with other details, too large to push to Github
+*.tsv 
+# Outputs from beam search
+*.unit 
+# Generated audio files
+*.wav 
+# Was used for evaluating the CharacterDecoders
+infer_encoder.py 
+# Old entry-point for beam inference
+generate.py 
+# Model checkpoints
+*.pt 
+# Require few more tests before publishing
+infer_openvino.py 
+# Require few more tests before publishing
+infer_onnx.py 
