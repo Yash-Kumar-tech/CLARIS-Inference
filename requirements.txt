@@ -1,0 +1,5 @@
+torch==2.7.0+cu128
+torchaudio==2.7.0+cu128
+tqdm==4.67.1
+soundfile==0.12.1
+numpy==2.2.6
