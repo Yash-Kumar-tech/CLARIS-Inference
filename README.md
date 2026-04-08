@@ -5,6 +5,8 @@
 
 This is the official inference code for the paper titled: "CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices", accepted to the ACM (Association for Computing Machinery) CHI conference on Human Factors in Computing Systems 2026.
 
+Checkpoints available at <a href="https://drive.google.com/drive/folders/1EAWnMmtnqljDRuTfoD9CQORqNFqRKkYg?usp=sharing">GDrive</a>
+
 ## Key Features
 
 - **Transformer-based S2U Architecture**: Auto-Regressive Transformer for CLARIS.
