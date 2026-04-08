@@ -3,8 +3,6 @@ __pycache__
 
 # Logs, experimental code and other artifacts
 *exports*
-# Artifacts generated during training
-*.txt
 # Code for the plots in the paper
 plot.py* 
 # Plots
@@ -25,3 +23,5 @@ generate.py
 infer_openvino.py 
 # Require few more tests before publishing
 infer_onnx.py 
+# Temporary logs generated during training and testing
+*.txt 
