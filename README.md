@@ -1,6 +1,6 @@
 # CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices
 
-[![Paper](https://img.shields.io/badge/Paper-ACM_DL-blue?style=flat-square)](#)
+[![Paper](https://img.shields.io/badge/Paper-ACM_DL-blue?style=flat-square)](https://dl.acm.org/doi/pdf/10.1145/3772318.3791734)
 [![Demo](https://img.shields.io/badge/Demo-GitHub_Pages-orange?style=flat-square)](https://claris-w2s.github.io/CLARIS/)
 
 This is the official inference code for the paper titled: "CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices", accepted to the ACM (Association for Computing Machinery) CHI conference on Human Factors in Computing Systems 2026.
