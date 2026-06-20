@@ -33,7 +33,16 @@ class VariancePredictor(torch.nn.Module):
         self.proj = torch.nn.Linear(params.hiddenDim, 1)
         
     def forward(self, x: torch.Tensor) -> torch.Tensor:
+        def forward(self, x: torch.Tensor) -> torch.Tensor:
         # Input: B x T x C, Output: B x T
-        x = self.conv1(x.transpose(1, 2))
-        x = self.conv2(x).transpose(1, 2)
-        return self.proj(x).squeeze(dim = 2)
+        x = x.transpose(1, 2)
+        x = self.conv1(x)
+        x = x.transpose(1, 2)
+        x = self.ln1(x)
+        x = x.transpose(1, 2)
+        x = self.conv2(x)
+        x = x.transpose(1, 2)
+        x = self.ln2(x)
+        x = self.proj(x)
+        x = x.squeeze(dim = 2)
+        return x
