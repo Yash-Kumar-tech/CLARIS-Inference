@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software or models in your research, please cite it as below."
+title: "CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices"
+authors:
+  - family-names: "Shah"
+    given-names: "Neil"
+  - family-names: "Sonkar"
+    given-names: "Yash"
+  - family-names: "Karande"
+    given-names: "Shirish Subhash"
+  - family-names: "Gandhi"
+    given-names: "Vineet"
+url: "https://github.com/Yash-Kumar-tech/CLARIS-Inference"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Shah"
+      given-names: "Neil"
+    - family-names: "Sonkar"
+      given-names: "Yash"
+    - family-names: "Karande"
+      given-names: "Shirish Subhash"
+    - family-names: "Gandhi"
+      given-names: "Vineet"
+  title: "CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices"
+  collection-title: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems"
+  collection-type: proceedings
+  conference:
+    name: "CHI '26: ACM Conference on Human Factors in Computing Systems"
+    location: "Barcelona, Spain"
+  year: 2026
+  publisher:
+    name: "Association for Computing Machinery"
+    address: "New York, NY, USA"
+  doi: "10.1145/3772318.3791734"
+  url: "https://doi.org/10.1145/3772318.3791734"
+  isbn: "9798400722783"
+  start: 1410
+  pages: 18
