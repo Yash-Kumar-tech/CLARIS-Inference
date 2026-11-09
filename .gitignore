@@ -38,4 +38,7 @@ build/
 local.properties
 *.iml
 .idea/
+*.apk
+release_assets/
+
  
