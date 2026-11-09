@@ -4,7 +4,7 @@
 [![Paper](https://img.shields.io/badge/Paper-ACM_DL-blue?style=flat-square)](https://dl.acm.org/doi/pdf/10.1145/3772318.3791734)
 [![Demo](https://img.shields.io/badge/Demo-GitHub_Pages-orange?style=flat-square)](https://claris-w2s.github.io/CLARIS/)
 [![Android App](https://img.shields.io/badge/Android-Demo_App-green?style=flat-square&logo=android)](./android_beam_demo)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](./LICENSE)
+[![License: MIT-0](https://img.shields.io/badge/License-MIT--0-yellow.svg?style=flat-square)](./LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yash-Kumar-tech/CLARIS-Inference/blob/main/demo_inference.ipynb)
 
 This is the official inference code for the paper titled: "CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices", accepted to the ACM (Association for Computing Machinery) CHI conference on Human Factors in Computing Systems 2026.
@@ -169,7 +169,7 @@ series = {CHI '26}
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT No Attribution (MIT-0) License - see the [LICENSE](LICENSE) file for details.
 
 ## TODO
 
