@@ -116,7 +116,7 @@ This script saves the models in the OpenVINO format (`.xml` and `.bin`), which a
 
 ## TODO
 
-- [ ] Release code for the CLARIS mobile application.
+- [X] Release code for the CLARIS mobile application.
 - [X] Provide dataset splits files for reproducibility.
 
 ---
