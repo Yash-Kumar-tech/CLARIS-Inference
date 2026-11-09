@@ -5,7 +5,11 @@ Single-screen Android app that runs the S2U pipeline on bundled wTIMIT recording
 wav → 80-bin fbank + CMVN (kaldi-native-fbank) → encoder (LiteRT, int8 weights) → beam-search decoder (LiteRT-LM bridge,
 int8 weights, width 3) → units → duration predictor (LiteRT) → vocoder (ONNX Runtime, fp32) → 16 kHz audio.
 
-## Build
+## Quick Install
+Download the pre-compiled standalone APK directly from [GitHub Releases (v1.0.0)](https://github.com/Yash-Kumar-tech/CLARIS-Inference/releases/tag/v1.0.0):
+- **`claris-beam-demo.apk`** (Bundled with quantized LiteRT/ONNX models and 12 wTIMIT test audio clips. Runs completely offline on `arm64-v8a`, Android 12+ / minSdk 31).
+
+## Build from Source
 Use a local Gradle 8.9 (AGP 8.7.3); from this folder:
 
     gradle :app:assembleDebug
