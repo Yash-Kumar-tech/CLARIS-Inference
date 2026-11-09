@@ -25,3 +25,17 @@ infer_openvino.py
 infer_onnx.py 
 # Temporary logs generated during training and testing
 *.txt 
+
+# Allow CMakeLists.txt and Android demo bundled assets
+!CMakeLists.txt
+!/android_beam_demo/app/src/main/assets/samples/**
+
+# Android build outputs and caches
+.gradle/
+.kotlin/
+.cxx/
+build/
+local.properties
+*.iml
+.idea/
+ 

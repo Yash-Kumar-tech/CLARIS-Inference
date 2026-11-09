@@ -21,6 +21,7 @@ Checkpoints available at <a href="https://drive.google.com/drive/folders/1EAWnMm
 
 ```text
 CLARIS_Inference/
+├── android_beam_demo/              # Android on-device demo app with real-time beam search visualization
 ├── data/                           # Dataset handling and collation logic
 ├── models/                         # Core model architectures (SpeechToUnitTransformer)
 ├── modules/                        # Transformer building blocks (Attention, Layers, etc.)
