@@ -7,6 +7,10 @@
 [![License: MIT-0](https://img.shields.io/badge/License-MIT--0-yellow.svg?style=flat-square)](./LICENSE)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Yash-Kumar-tech/CLARIS-Inference/blob/main/demo_inference.ipynb)
 
+<p align="center">
+  <img src="assets/teaser.png" alt="CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices" width="100%">
+</p>
+
 This is the official inference code for the paper titled: "CLARIS: Clear and Intelligible Speech from Whispered and Dysarthric Voices", accepted to the ACM (Association for Computing Machinery) CHI conference on Human Factors in Computing Systems 2026.
 
 The **demo_inference.ipynb** notebook enables straightforward inference, allowing users to seamlessly convert whispered or dysarthric audio into intelligible speech by simply executing the notebook cells.

@@ -29,6 +29,7 @@ infer_onnx.py
 # Allow CMakeLists.txt and Android demo bundled assets
 !CMakeLists.txt
 !/android_beam_demo/app/src/main/assets/samples/**
+!/assets/*.png
 
 # Android build outputs and caches
 .gradle/
